@@ -1,0 +1,89 @@
+Maps (8chars)
+
+コマメジマ - tinybean
+イッポンバシ - bridge
+ヨンタマジマ - foureyes / quadraball
+レモンミサキ - lemon
+キメンハントウ - mask / determination
+ママサンゴトウ - oyster / progress / stepbystep coral 
+オマルカルデラ -bedpan crater
+バテイボンチ -bathtub valley
+モンシロガワ -cabbage? river
+ビスコヨウサイ -biscuit
+イカロスハントウ -icarus
+ロココサンミャク -rococo
+フラスコワン -flask
+タマタマジマ -egg/surprise
+マリリントウ -marlin / merlin / marilyn
+ノストラヘイヤ - nostreya nostradamus / nostalgia
+ラスタコウゲン - lastcave / rasta plateau
+
+サマーランド -summer land
+ノアカザントウ - ararat volcano noah 
+Ｘカイキョウ - x channel / x strait
+バリバリトウ - cruncher / breaking / crunching
+トマトサンミャク -tomato mountain
+メガネジマ -glasses / screw
+ソウヤミサキ -soy / spear cape
+コケモモジマ -cowberry
+オオヤマサンチ -big gamble/big mountain centimeter
+オニギリジマ -onigiri / rice ball
+タチツテトウ - twinkle long sword?
+ゴマシオジマ -pepper / streaked
+ピラニアガワ -piranha river
+ハシダテジマ - express train service? coal mine?
+マンゲツジマ -fullmoon isle
+バミューコ -bermuda / bamyuuko
+ナウマンショトウ -naumann
+
+ブラックナイト - darklord black knight
+ラストワルツ -lastduet / waltz
+
+Units
+
+infantry / mashin gan
+mech / taichi roketto (anti-ground) taikū misairu
+supply -hokyū yusōsha
+tank L / senshahō kijū
+tank H / senshahō kijū
+tank S
+apc -sōkōsha / kijū (mg)
+anti-air -taikū sensha / taikūhō
+missiles -taikū misairu / taikū misairu
+cannon L / kanon 摸
+cannon H -ji hashihō A / kanon 摸
+rockets / taikū roketto
+battery - hodai / kanon 摸
+fighter L
+fighter H -sentōki A / sidewinder / vulcan
+bomber -bakugekiki / bakudan (bomb)
+awacs -rēdā yusōki
+warhead -super missile (explode detonate
+gunship -sentō heri / taichi roketto kijū
+transport -yusō heri / kijū(mg)
+cruiser -senkan / taikan misairu taikū misairu
+carrier -kubo / taikū misairu (anti air missile)
+lander -yusōsen / kikanhō
+submarine -sensuikan / gyorai (torpedo)
+
+部隊 Units
+状況 Situation
+全補 all auxiliaries
+他   Others
+終了 End
+      
+降伏 Surrender
+設定 Setup
+休戦 Armistice
+      
+占領 Occupied
+決定 Decided
+
+全補済み fully supplied
+
+("Lea" from "Leave" ->) Qu|it (<- "tup" from "Setup")
+Set|up (<- "ne" from "Done")
+rom0:0ddf (hl 4200,4320) why???
+rom1:468b: index a->c
+74 75 10 19 18 13 14 15
+    ->e6 e7 (1:4688)
