@@ -1,43 +1,57 @@
-Maps (8chars)
+Maps (8chars) (0x341b0) (0x11790)
 
 コマメジマ - tinybean
 イッポンバシ - bridge
-ヨンタマジマ - foureyes / quadraball
+ヨンタマジマ - fourorbs / foureyes / quadraball
 レモンミサキ - lemon
-キメンハントウ - mask / determination
-ママサンゴトウ - oyster / progress / stepbystep coral 
+キメンハントウ - gargoyle / fist / mask / determination
+ママサンゴトウ - pearl / coral / oyster / progress / stepbystep coral 
 オマルカルデラ -bedpan crater
-バテイボンチ -bathtub valley
+バテイボンチ - hoof / horseshoe bathtub valley
 モンシロガワ -cabbage? river
 ビスコヨウサイ -biscuit
 イカロスハントウ -icarus
 ロココサンミャク -rococo
 フラスコワン -flask
-タマタマジマ -egg/surprise
-マリリントウ -marlin / merlin / marilyn
+タマタマジマ - ballgame / egg/surprise
+マリリントウ - marilyn / merlin / 
+
 ノストラヘイヤ - nostreya nostradamus / nostalgia
-ラスタコウゲン - lastcave / rasta plateau
+ラスタコウゲン - rasta / lastword / rasta plateau
 
 サマーランド -summer land
 ノアカザントウ - ararat volcano noah 
-Ｘカイキョウ - x channel / x strait
-バリバリトウ - cruncher / breaking / crunching
+Ｘカイキョウ - x-strait  /x channel / 
+バリバリトウ - crusher /cruncher / clap / breaking / crunching
 トマトサンミャク -tomato mountain
 メガネジマ -glasses / screw
-ソウヤミサキ -soy / spear cape
+ソウヤミサキ -soybean / spear cape
 コケモモジマ -cowberry
-オオヤマサンチ -big gamble/big mountain centimeter
+オオヤマサンチ - everest / bigmount  / big gamble/big mountain centimeter
 オニギリジマ -onigiri / rice ball
 タチツテトウ - twinkle long sword?
-ゴマシオジマ -pepper / streaked
+ゴマシオジマ - sesame / pepper / streaked
 ピラニアガワ -piranha river
 ハシダテジマ - express train service? coal mine?
 マンゲツジマ -fullmoon isle
 バミューコ -bermuda / bamyuuko
-ナウマンショトウ -naumann
 
 ブラックナイト - darklord black knight
+ナウマンショトウ -naumann
 ラストワルツ -lastduet / waltz
+
+Maps (2P)
+カクカク島 -square
+オーロラ島 -aurora
+桜平原 - blossom   / cherry / sakura
+ビーナスの森 -venus
+クネクネ川 - meander / winding
+オカリナ諸島 -ocarina
+ブルー諸島 - bluesea/tropics / 
+平目海峡 -flounder / plaice
+阿修羅平地 -asura
+茶々半島 -rupture /chacha / 
+
 
 Units
 
@@ -79,11 +93,71 @@ submarine -sensuikan / gyorai (torpedo)
 占領 Occupied
 決定 Decided
 
-全補済み fully supplied
+全補済み fully supplied (37 53 54 55 @ 0x6772)
+                    -> 55 53 4a 4b
+部隊全滅 All Units destroyed (35 36 37 38 @ 0x6776)
+                            -> 43 44 36
+資金不足 can't afford (4c 4d 45 4e)
+	                      ->e8
+全補完了 all supplied (37 53 4a 4b)
+塔載完了 unit loaded (43 44 4a 4b)
+                        ->e9 ea
+降車完了 unloaded (72 76 4a 4b)
+                    -> eb ec
+合流完了 unit merged (56 57 4a 4b)					
+					     ->ed ee
+		harbor taken (30 2e 2f)
+		kill unit 39 40 4a 4b
+		              ->ff ff
+	    airport taken (31 30 2e 2f)
+		                 ->ef
+	    capital taken (32 2c 2e 2f)
+		               -> f0
+					   (35 36 37 38)
+        one supplied (53 58 4a 4b)
+                    ->58 53		
+					   
+					   
+ミサイル warhead / missile
+全滅   (unit) destroyed
 
-("Lea" from "Leave" ->) Qu|it (<- "tup" from "Setup")
-Set|up (<- "ne" from "Done")
-rom0:0ddf (hl 4200,4320) why???
+@2d610: font 6:6082
+ホワイトムーンノカチ (14 chars)
+white moon win 
+46 37 38 43 34 ff 3c 3e 3e 3d ff 46 38 3d
+
+red star win
+ff 41 34 33 ff 42 43 30 41 ff 46 38 3d ff
+
+
+@114c0:
+ノコリブタイスウ -units remaining / left over
+​​シヨウ グンジヒ -war fund utilization
+
+サイシュウ ターンスウ -turns taken
+
+
 rom1:468b: index a->c
 74 75 10 19 18 13 14 15
-    ->e6 e7 (1:4688)
+    ->e6 e7    19       (1:4666)
+	
+1:6700:tilemaps for 3 kanji / 2 kanji msg
+
+capture animate:
+13 chars @ 24000
+aioctyfrhbpl
+capital factory airport harbor city
+
+map select: (grey)
+@ 341b0
+
+
+
+map name on map???
+@ 1e500
+
+@5090:
+セイサン ブタイスウ -units built
+ゼンメツ ブタイスウ -units lost
+ 
+
