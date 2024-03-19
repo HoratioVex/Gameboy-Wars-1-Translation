@@ -116,7 +116,10 @@ submarine -sensuikan / gyorai (torpedo)
 					   (35 36 37 38)
         one supplied (53 58 4a 4b)
                     ->58 53		
-					   
+		occupied (35 36 4f 50)	
+              ->  f1 f2 f3 ff
+		unable  	(43 44 45 46)
+                   ->45 46 47 ff		
 					   
 ミサイル warhead / missile
 全滅   (unit) destroyed
