@@ -120,7 +120,14 @@ submarine -sensuikan / gyorai (torpedo)
               ->  f1 f2 f3 ff
 		unable  	(43 44 45 46)
                    ->45 46 47 ff		
-					   
+
+unused?					   
+補給中	in the process of replenishment (53 58 59)
+命中		target hit 						(6D 59)
+弹道		projectile trajectory 			(6e 6f)
+ずれ		displacement 					(70 71)
+降伏		surrender 						(72 73)
+   
 ミサイル warhead / missile
 全滅   (unit) destroyed
 
@@ -154,13 +161,14 @@ capital factory airport harbor city
 map select: (grey)
 @ 341b0
 
-
-
 map name on map???
 @ 1e500
 
 @5090:
 セイサン ブタイスウ -units built
 ゼンメツ ブタイスウ -units lost
- 
 
+
+https://www.nintendo.co.jp/n02/dmg/gwj/butai/index.html (unit list)
+https://gbwn.main.jp/index.htm (GBW guides)
+https://web.archive.org/web/20230330070858/https://gbw.netgamers.jp/n/mapguide.html (GBW mapguide)
