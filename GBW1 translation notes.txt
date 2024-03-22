@@ -127,6 +127,8 @@ unused?
 弹道		projectile trajectory 			(6e 6f)
 ずれ		displacement 					(70 71)
 降伏		surrender 						(72 73)
+
+	
    
 ミサイル warhead / missile
 全滅   (unit) destroyed
@@ -167,6 +169,12 @@ map name on map???
 @5090:
 セイサン ブタイスウ -units built
 ゼンメツ ブタイスウ -units lost
+
+ending:
+作戦終了	end of operation
+		1:46EB (kanji 0x46eb?)
+
+3c 39 40 ff 1c 19 0e (special map unlock 0x21490)
 
 
 https://www.nintendo.co.jp/n02/dmg/gwj/butai/index.html (unit list)
