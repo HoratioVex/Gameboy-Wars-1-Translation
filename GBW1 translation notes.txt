@@ -120,6 +120,7 @@ submarine -sensuikan / gyorai (torpedo)
               ->  f1 f2 f3 ff
 		unable  	(43 44 45 46)
                    ->45 46 47 ff		
+		unit max 40	(51 52 64 60)
 
 unused?					   
 補給中	in the process of replenishment (53 58 59)
