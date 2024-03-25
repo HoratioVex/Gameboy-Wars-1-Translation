@@ -177,6 +177,26 @@ ending:
 
 3c 39 40 ff 1c 19 0e (special map unlock 0x21490)
 
+GBWT music bug:
+
+gbw1:
+0xC756: 11346789 AAA78778 ABEFFEDA 97431131 (plays)
+
+gbwt:
+0xC972: good wave
+0xC756: FE022819 0E1AFA3F C3CB7F20 05AFE23E (plays)
+pointer 3:5ed9 
+read at 3:4400
+4756->4972 (+ 0x21C)
+9d 56 47 -> 9d 72 49
+
+good: c932
+play: c716 (A7280C6F 2600CB7D 280226FF 09444D21)
+4716->4932 (+ 0x21C)
+9d 16 47 -> 9d 32 49
+
+first byte from table: 3:6906
+2nd byte from table: pointers [3:5D3D] -> 3:5D96 / 3:5d9a / 5d5d
 
 https://www.nintendo.co.jp/n02/dmg/gwj/butai/index.html (unit list)
 https://gbwn.main.jp/index.htm (GBW guides)
